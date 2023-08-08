@@ -1,0 +1,9 @@
+class ScoreException extends Exception {
+        public ScoreException() {     //构造方法没有返回值
+            super();
+        }
+
+        public ScoreException(String message) {
+            super(message);        //构造方法没有返回值
+        }
+    }
